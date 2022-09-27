@@ -1,0 +1,43 @@
+Terminal Lab
+
+Part 1
+mkdir death_star
+cd death_star
+touch darth_vader.txt princess_leia.txt storm_trooper.txt
+cd ..
+
+Part 2
+mkdir tatooine
+cd tatooine
+touch luke.txt ben_kenobi
+
+Part 3
+mkdir millenium_falcon
+cd millenium_falcon/
+touch han_solo.txt chewbaca.txt
+
+Part II
+cd ..
+mv ben_kenobi.txt obi_wan.txt
+
+Part III
+cd .. 
+cd death_star/
+cp storm_trooper.txt ../tatooine
+cd ..
+cd tatooine
+
+Part IV
+P6
+ mv luke.txt obi_wan.txt millenium_falcon/
+ cd millenium_falcon/
+ ls
+
+ P7
+ cd ..
+ mv millenium_falcon ..
+
+ P8
+ cd ..
+mv millenium_falcon death_star/
+
